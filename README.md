@@ -9,7 +9,7 @@
 调用来自任何插件的任何功能,组合成你想要的功能.
 # 特点 
 1. 开源
-2. 全平台支持(目前优先开发Windows)
+2. _~~全平台支持(目前优先开发Windows)~~_
 3. 插件化
 4. 节点化
 5. 本地功能免费
@@ -19,32 +19,44 @@
 1. 快速打开本地项目(常规软件,UWP软件,桌面文件和文件夹,自定义文件)  
 (以管理员身份运行,打开项目所在文件夹,在命令行打开项目所在路径)    
 支持与`Everything`集成快速打开本地文档  
-![](./assets/README/24c268fa.png)
+![img.png](./assets/README/img.png)
 2. 快速打开本地路径(剪贴板自动检测/手动输入)  
-![](./assets/README/3a14593a.png)
+![img.png](./assets/README/Kitopia1766497859292.png)
 3. 快速打开网页/在网页中搜索  
-![](./assets/README/4909439950700.png)
+![](./assets/README/Kitopia1766497900723.png)
 4. 快速执行命令  
-![](./assets/README/4957265101600.png)
+![](./assets/README/Kitopia1766545448935.png)
 5. 快速保存剪贴板图像到图像文件  
-![](./assets/README/5009835767700.png)
+![](./assets/README/Kitopia1766545486872.png)
 6. 简单的数学计算  
-![](./assets/README/5022075651600.png)
-7. 运行Kitopia情景  
-![](./assets/README/5042823768000.png)
-
-## 截图工具 (默认快捷键`Ctrl`+`Alt`+`Q`)
-> 对屏幕内容进行截取  
+![](./assets/README/Kitopia1766545548843.png)
+7. 快速翻译文本(微软翻译)
+![](./assets/README/Kitopia1766545661043.png)
+![](./assets/README/Kitopia1766545700379.png)
+## 截图工具 (默认快捷键`Ctrl`+`Alt`+`Q`)(支持HDR和长截图)
+> 对屏幕内容进行截取   
 
 ### 捕获屏幕内容
+* **支持HDR屏幕截图**
+* 长截图(滚动截图)
 
-#### 两种截图模式
+### HDR效果
+![](./assets/README/Kitopia1766546034186.png) 
+### 对比QQ/WX
+![](./assets/README/2c45a147-c0c8-4457-a99f-04fdfb7119ac.png)
+
+### 功能
+1. 二维码识别
+2. OCR文字识别
+3. 翻译
+4. 置顶图片
+### 两种截图模式
 
 * 将剪辑直接复制到剪贴板(默认)
 * 截取后进行图像批注/修改
 
 图像批注(需在设置中关闭直接复制到剪贴板)  
-![](./assets/README/5239046170200.png)
+![](./assets/README/Kitopia1766545621822.png)
 
 * 可用工具 
   * 矩形框 圆形框 箭头 画笔 文字 马赛克
@@ -65,11 +77,11 @@
 >提供SDK支持插件化开发,拓展软件功能(当然直接PR在主程序也是一种方式) 
 
 提供用户友好的可配置界面  
-![](./assets/README/5444583584300.png)
+![](./assets/README/Kitopia1766547910714.png)
 
 
 ## 场景（你自己的专属功能）
 > 编写自己的情景来调用Kitopia软件自身的功能,以及来自插件的拓展功能  
 > 节点可视化编辑,无需编写代码,直接拖拽节点来编写自己的情景
 
-![](./assets/README/5425855413000.png)
+![](./assets/README/Kitopia1766548006092.png)
